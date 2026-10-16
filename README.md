@@ -79,6 +79,10 @@ sherlock kullaniciadi --csv --print-found --timeout 10
 ```
 Çıkan CSV dosyasını dashboard'daki yükleme alanına bırak. Veri yalnızca kendi bilgisayarında işlenir.
 
+ℹ️ Dashboard herkese açık bir web sitesi değil, yerel olarak çalışır. 
+ `streamlit run app.py` komutundan sonra kendi bilgisayarında `http://localhost:8501` adresinde açılır.
+Bu tasarım bilinçlidir: kendi kullanıcı adı verilerin hiçbir sunucuya gönderilmez.
+
 ## Proje yapısı
 
 ```
